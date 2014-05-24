@@ -6,9 +6,9 @@
 # Input format:
 
 # First line is subject name
-# No starting tab means question
-# One tab means wrong answer
-# Two tab means correct answer
+# No starting dot means question
+# One dot means wrong answer
+# Two dots means correct answer
 
 import json
 from sys import stdin
@@ -26,12 +26,12 @@ if __name__ == '__main__':
     if not data:
         exit('Input file was empty')
     for line in data:
-        if line[0] != '\t':
+        if line[0] != '.':
             q.append({'description': line, 'answers': []})
             i += 1
         else:
             a = {}
-            if line[1] != '\t':
+            if line[1] != '.':
                 a['description'] = line[1:].strip()
                 a['correct'] = False
             else:
