@@ -1,0 +1,28 @@
+Databaser
+Er følgende historie konfliktserialiserbar? H1: r1 (X); r3 (X); w1(X); r2(X); w3(X)
+.Ja
+..Nei
+Er følgende historie konfliktserialiserbar? H2: r1 (X); r3 (X); w3(X); w1(X); r2(X)
+.Ja
+..Nei
+Er følgende historie konfliktserialiserbar? H3: r3 (X); r2 (X); w3(X); r1(X); w1(X)
+..Ja
+.Nei
+Er følgende historie konfliktserialiserbar? H4: r3 (X); r2 (X); r1(X); w3(X); w1(X)
+.Ja
+..Nei
+Hvilke krav oppfyller følgende historie? H7: r1(x); r2(z); r1(z); r3(x); r3(y); w1(x); c1; w3(y); c3; r2(y); w2(z); w2(y);c2
+..Strict
+..ACA
+..Recoverable
+.Nonrecoverable
+Hvilke krav oppfyller følgende historie? H8: r1(x); r2(z); r1(z); r3(x); r3(y); w1(x); w3(y); r2(y); w2(z); w2(y); c1; c2; c3;
+.Strict
+.Cascadeless
+.Recoverable
+..Nonrecoverable
+Hvilke krav oppfyller følgende historie? H9: r1(x); r2(z); r3(x); r1(z); r2(y); r3(y); w1(x); w2(z); w3(y); w2(y); c3; c2;
+.Strict
+..Cascadeless
+..Recoverable
+.Nonrecoverable
