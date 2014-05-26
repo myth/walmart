@@ -72,7 +72,7 @@ For Prototyper, hva menes med begrepet Papirprototype?
 .Enkel prototype uten mye detalj, hverken grafikk eller interaksjon. Brukes gjerne tidlig i prosjekter. Enkle å lage.
 .Kompleks prototype. koster mer. Brukes senere i prosjektet. Ligner på det ferdige produktet.
 .Er gjerne en veritikal prototype, eller kombinasjon. Er en quick and dirty implementajson av interaktivitet vha. egnet verktøy. Trenger ikke leve eget liv. Brukes til å teste designidéer.
-.Tegnet prototype. Raskt å lage. Design av grenesnittet slik brukeren opplever det. Forkke riktig responstid, mangler lyder og animasjoner. Krever god forestillingsevne hos brukeren.
+..Tegnet prototype. Raskt å lage. Design av grenesnittet slik brukeren opplever det. Forkke riktig responstid, mangler lyder og animasjoner. Krever god forestillingsevne hos brukeren.
 For Gestaltprinsippene, hva betyr Similarity?
 ..Når objekter ligner på hverandre, ser man dem ofte som ett objekt.
 .Forekommer når øyet følger et objekt som fører mot et annet objekt.
