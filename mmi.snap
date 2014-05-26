@@ -1,13 +1,142 @@
 MMI
-Forklar begrepet "Affordance" slik det brukes av bl.a Don Normal og i læreboka.
-.Affordance er den mentale modellen vi ønsker at brukeren skal ha av virkemåten og strukturen til et produkt. Dette begrepet er relevant fordi det er viktig å designe hvordan brukeren forstår strukturen og virkemåten til det vi lager. 
-..Affordance er den bruk et objekt signaliserer gjennom sin form og farge. Det finnes forskjellig typer affordance: gitt av menneskekroppen, kulturelt, og kontekstuelt.
-.Affordande stammer fra psykologisk forskning tidlig i det 20de århundre. Psykologene fant ut at synsinntrykk blir behandlet før de når bevisstheten, slik at vi ikke bare ser enkeltheter men også helheter. Det gjør f.eks. at ting som ligger i nærheten av hverandre former er gruppe, og ting som ligger etter hverandre former en linje.
-Forklar begrepet konseptuell modell ("conceptual modell").
-..Conceptual Model er den mentale modellen vi ønsker at brukeren skal ha av virkemåten og strukturen til et produkt. Dette begrepet er relevant fordi det er viktig å designe hvordan brukeren forstår strukturen og virkemåten til det vi lager.
-.Conceptual Model er den bruk et objekt signaliserer gjennom sin form og farge. Det finnes forskjellig typer affordance: gitt av menneskekroppen, kulturelt, og kontekstuelt.
-.Conceptual stammer fra psykologisk forskning tidlig i det 20de århundre. Psykologene fant ut at synsinntrykk blir behandlet før de når bevisstheten, slik at vi ikke bare ser enkeltheter men også helheter. Det gjør f.eks. at ting som ligger i nærheten av hverandre former er gruppe, og ting som ligger etter hverandre former en linje.
-Forklar gestaltprinsippet om nærhet.
-.Gestaltprinsippet om nærhet er den mentale modellen vi ønsker at brukeren skal ha av virkemåten og strukturen til et produkt. Dette begrepet er relevant fordi det er viktig å designe hvordan brukeren forstår strukturen og virkemåten til det vi lager. 
-.Gestaltprinsippet om nærhet er den bruk et objekt signaliserer gjennom sin form og farge. Det finnes forskjellig typer affordance: gitt av menneskekroppen, kulturelt, og kontekstuelt.
-..Gestaltprinsippet om nærhet stammer fra psykologisk forskning tidlig i det 20de århundre. Psykologene fant ut at synsinntrykk blir behandlet før de når bevisstheten, slik at vi ikke bare ser enkeltheter men også helheter. Det gjør f.eks. at ting som ligger i nærheten av hverandre former er gruppe, og ting som ligger etter hverandre former en linje.
+I området Brukskvalitet (Usability) hva er Anvendbarhet (Effectiveness)?
+..Dekker systemet de relevante funksjoner, og får brukerne til å bruke dem?
+.Vurdering av om oppgavene lar seg utføre effektivt.
+.Den subjektive brukskvalitet. Krever tester og spørreundersøkelser for å fastslå brukernes opplevelse av systemet.
+Man har flere måter å jobbe på når man skal i gang med å lage et brukergrensesnitt. Hva er Formativ evaluering?
+..Evaluering med den hensik å gi tilbakemelding for å forbedre produktet. her er det fokus på hvilke feil brukere oppdager, og hvordan dette kan meldes tilbake til utviklerne.
+.Evaluering med hensikt å måle eller godkjenne brukskvalitene til et produkt. Fokus på målbare kriterier som oppgavegjennomføring, feilrate og subjektiv tilfredstillelse.
+Man har flere måter å jobbe på når man skal i gang med å lage et brukergrensesnitt. Hva er Summativ evaluering?
+.Evaluering med den hensik å gi tilbakemelding for å forbedre produktet. her er det fokus på hvilke feil brukere oppdager, og hvordan dette kan meldes tilbake til utviklerne.
+..Evaluering med hensikt å måle eller godkjenne brukskvalitene til et produkt. Fokus på målbare kriterier som oppgavegjennomføring, feilrate og subjektiv tilfredstillelse.
+I Prototyper, hva menes med begrepet Horisontal prototype?
+..Vise totalsystemet uten særlig mye interaktivitet eller funksjonalitet
+.Gå i dybden på en detalj, dvs. implementere nok interaktivitet og funksjonalitet til å kunne teste dette.
+.Utseendemodell animert med mennesker og tilgjengelig teknologi bak kulissene. Det sakl være en realistisk gjengivelse hvis alt fungerer. Kan være kostbart.
+.Enkel prototype uten mye detalj, hverken grafikk eller interaksjon. Brukes gjerne tidlig i prosjekter. Enkle å lage.
+.Kompleks prototype. koster mer. Brukes senere i prosjektet. Ligner på det ferdige produktet.
+.Er gjerne en veritikal prototype, eller kombinasjon. Er en quick and dirty implementajson av interaktivitet vha. egnet verktøy. Trenger ikke leve eget liv. Brukes til å teste designidéer.
+.Tegnet prototype. Raskt å lage. Design av grenesnittet slik brukeren opplever det. Ikke riktig responstid, mangler lyder og animasjoner. Krever god forestillingsevne hos brukeren.
+I Prototyper, hva menes med begrepet Vertikal prototype?
+.Vise totalsystemet uten særlig mye interaktivitet eller funksjonalitet
+..Gå i dybden på en detalj, dvs. implementere nok interaktivitet og funksjonalitet til å kunne teste dette.
+.Utseendemodell animert med mennesker og tilgjengelig teknologi bak kulissene. Det sakl være en realistisk gjengivelse hvis alt fungerer. Kan være kostbart.
+.Enkel prototype uten mye detalj, hverken grafikk eller interaksjon. Brukes gjerne tidlig i prosjekter. Enkle å lage.
+.Kompleks prototype. koster mer. Brukes senere i prosjektet. Ligner på det ferdige produktet.
+.Er gjerne en veritikal prototype, eller kombinasjon. Er en quick and dirty implementajson av interaktivitet vha. egnet verktøy. Trenger ikke leve eget liv. Brukes til å teste designidéer.
+.Tegnet prototype. Raskt å lage. Design av grenesnittet slik brukeren opplever det. Ikke riktig responstid, mangler lyder og animasjoner. Krever god forestillingsevne hos brukeren.
+I Prototyper, hva menes med begrepet Wizard-of-Oz modell?
+.Vise totalsystemet uten særlig mye interaktivitet eller funksjonalitet
+.Gå i dybden på en detalj, dvs. implementere nok interaktivitet og funksjonalitet til å kunne teste dette.
+..Utseendemodell animert med mennesker og tilgjengelig teknologi bak kulissene. Det sakl være en realistisk gjengivelse hvis alt fungerer. Kan være kostbart.
+.Enkel prototype uten mye detalj, hverken grafikk eller interaksjon. Brukes gjerne tidlig i prosjekter. Enkle å lage.
+.Kompleks prototype. koster mer. Brukes senere i prosjektet. Ligner på det ferdige produktet.
+.Er gjerne en veritikal prototype, eller kombinasjon. Er en quick and dirty implementajson av interaktivitet vha. egnet verktøy. Trenger ikke leve eget liv. Brukes til å teste designidéer.
+.Tegnet prototype. Raskt å lage. Design av grenesnittet slik brukeren opplever det. Ikke riktig responstid, mangler lyder og animasjoner. Krever god forestillingsevne hos brukeren.
+I Prototyper, hva menes med begrepet Low-Fi prototype?
+.Vise totalsystemet uten særlig mye interaktivitet eller funksjonalitet
+.Gå i dybden på en detalj, dvs. implementere nok interaktivitet og funksjonalitet til å kunne teste dette.
+.Utseendemodell animert med mennesker og tilgjengelig teknologi bak kulissene. Det sakl være en realistisk gjengivelse hvis alt fungerer. Kan være kostbart.
+..Enkel prototype uten mye detalj, hverken grafikk eller interaksjon. Brukes gjerne tidlig i prosjekter. Enkle å lage.
+.Kompleks prototype. koster mer. Brukes senere i prosjektet. Ligner på det ferdige produktet.
+.Er gjerne en veritikal prototype, eller kombinasjon. Er en quick and dirty implementajson av interaktivitet vha. egnet verktøy. Trenger ikke leve eget liv. Brukes til å teste designidéer.
+.Tegnet prototype. Raskt å lage. Design av grenesnittet slik brukeren opplever det. Ikke riktig responstid, mangler lyder og animasjoner. Krever god forestillingsevne hos brukeren.
+I Prototyper, hva menes med begrepet High-Fi prototype?
+.Vise totalsystemet uten særlig mye interaktivitet eller funksjonalitet
+.Gå i dybden på en detalj, dvs. implementere nok interaktivitet og funksjonalitet til å kunne teste dette.
+.Utseendemodell animert med mennesker og tilgjengelig teknologi bak kulissene. Det sakl være en realistisk gjengivelse hvis alt fungerer. Kan være kostbart.
+.Enkel prototype uten mye detalj, hverken grafikk eller interaksjon. Brukes gjerne tidlig i prosjekter. Enkle å lage.
+..Kompleks prototype. koster mer. Brukes senere i prosjektet. Ligner på det ferdige produktet.
+.Er gjerne en veritikal prototype, eller kombinasjon. Er en quick and dirty implementajson av interaktivitet vha. egnet verktøy. Trenger ikke leve eget liv. Brukes til å teste designidéer.
+.Tegnet prototype. Raskt å lage. Design av grenesnittet slik brukeren opplever det. Ikke riktig responstid, mangler lyder og animasjoner. Krever god forestillingsevne hos brukeren.
+
+I Prototyper, hva menes med begrepet Interaktiv prototype?
+.Vise totalsystemet uten særlig mye interaktivitet eller funksjonalitet
+.Gå i dybden på en detalj, dvs. implementere nok interaktivitet og funksjonalitet til å kunne teste dette.
+.Utseendemodell animert med mennesker og tilgjengelig teknologi bak kulissene. Det sakl være en realistisk gjengivelse hvis alt fungerer. Kan være kostbart.
+.Enkel prototype uten mye detalj, hverken grafikk eller interaksjon. Brukes gjerne tidlig i prosjekter. Enkle å lage.
+.Kompleks prototype. koster mer. Brukes senere i prosjektet. Ligner på det ferdige produktet.
+..Er gjerne en veritikal prototype, eller kombinasjon. Er en quick and dirty implementajson av interaktivitet vha. egnet verktøy. Trenger ikke leve eget liv. Brukes til å teste designidéer.
+.Tegnet prototype. Raskt å lage. Design av grenesnittet slik brukeren opplever det. Ikke riktig responstid, mangler lyder og animasjoner. Krever god forestillingsevne hos brukeren.
+I Prototyper, hva menes med begrepet Papirprototype?
+.Vise totalsystemet uten særlig mye interaktivitet eller funksjonalitet
+.Gå i dybden på en detalj, dvs. implementere nok interaktivitet og funksjonalitet til å kunne teste dette.
+.Utseendemodell animert med mennesker og tilgjengelig teknologi bak kulissene. Det sakl være en realistisk gjengivelse hvis alt fungerer. Kan være kostbart.
+.Enkel prototype uten mye detalj, hverken grafikk eller interaksjon. Brukes gjerne tidlig i prosjekter. Enkle å lage.
+.Kompleks prototype. koster mer. Brukes senere i prosjektet. Ligner på det ferdige produktet.
+.Er gjerne en veritikal prototype, eller kombinasjon. Er en quick and dirty implementajson av interaktivitet vha. egnet verktøy. Trenger ikke leve eget liv. Brukes til å teste designidéer.
+.Tegnet prototype. Raskt å lage. Design av grenesnittet slik brukeren opplever det. Ikke riktig responstid, mangler lyder og animasjoner. Krever god forestillingsevne hos brukeren.
+I Gestaltprinsippene, hva betyr Similarity?
+Similiarity	Når objekter ligner på hverandre, ser man dem ofte som ett objekt.
+Continuation	Kontinuasjon forekommer når øyet følger et objekt som fører mot et annet objekt.
+Closure	Dersom et objekt er uferdig, der man har mellomrom mellom linjer i objektet, vil folk observere hele objektet ved å fylle inn den manglende informasjonen.
+Proximity	Når objekter er plasert nærme hverandre, blir de ofte sett på som en gruppe.
+Figure and Ground	Øyet skiller et objekt (figure) fra det som ligger rundt objektet (ground).
+I Gestaltprinsippene, hva betyr Similarity?
+..Når objekter ligner på hverandre, ser man dem ofte som ett objekt.
+.Forekommer når øyet følger et objekt som fører mot et annet objekt.
+.Dersom et objekt er uferdig, der man har mellomrom mellom linjer i objektet, vil folk observere hele objektet ved å fylle inn den manglende informasjonen.
+.Når objekter er plasert nærme hverandre, blir de ofte sett på som en gruppe.
+.Øyet skiller et objekt (figure) fra det som ligger rundt objektet (ground).
+I Gestaltprinsippene, hva betyr Continuation?
+.Når objekter ligner på hverandre, ser man dem ofte som ett objekt.
+..Forekommer når øyet følger et objekt som fører mot et annet objekt.
+.Dersom et objekt er uferdig, der man har mellomrom mellom linjer i objektet, vil folk observere hele objektet ved å fylle inn den manglende informasjonen.
+.Når objekter er plasert nærme hverandre, blir de ofte sett på som en gruppe.
+.Øyet skiller et objekt (figure) fra det som ligger rundt objektet (ground).
+I Gestaltprinsippene, hva betyr Closure?
+.Når objekter ligner på hverandre, ser man dem ofte som ett objekt.
+.Forekommer når øyet følger et objekt som fører mot et annet objekt.
+..Dersom et objekt er uferdig, der man har mellomrom mellom linjer i objektet, vil folk observere hele objektet ved å fylle inn den manglende informasjonen.
+.Når objekter er plasert nærme hverandre, blir de ofte sett på som en gruppe.
+.Øyet skiller et objekt (figure) fra det som ligger rundt objektet (ground).
+I Gestaltprinsippene, hva betyr Proximity?
+.Når objekter ligner på hverandre, ser man dem ofte som ett objekt.
+.Forekommer når øyet følger et objekt som fører mot et annet objekt.
+.Dersom et objekt er uferdig, der man har mellomrom mellom linjer i objektet, vil folk observere hele objektet ved å fylle inn den manglende informasjonen.
+..Når objekter er plasert nærme hverandre, blir de ofte sett på som en gruppe.
+.Øyet skiller et objekt (figure) fra det som ligger rundt objektet (ground).
+I Gestaltprinsippene, hva betyr Eye and Ground?
+.Når objekter ligner på hverandre, ser man dem ofte som ett objekt.
+.Forekommer når øyet følger et objekt som fører mot et annet objekt.
+.Dersom et objekt er uferdig, der man har mellomrom mellom linjer i objektet, vil folk observere hele objektet ved å fylle inn den manglende informasjonen.
+.Når objekter er plasert nærme hverandre, blir de ofte sett på som en gruppe.
+..Øyet skiller et objekt (figure) fra det som ligger rundt objektet (ground).
+I Jacob Nilsens liste, hva menes med Visibility of system status?
+.Lag et godt hjelpesystem
+..Systemet skal alltid vise brukeren hva som foregår i maskinen
+.Konsistens i grensesnittet, følg retningslinjer for plattformen du bruker
+I Jacon Nilsens liste, hva menes med Match between system and the real world?
+.Lag et godt hjelpesystem
+..Snakk brukerens språk. Begreper ord og fremstillingsmåte som brukeren forstår
+.Systemet skal alltid vise brukeren hva som foregår i maskinen
+I Jacob Nilsens liste, hva menes med User control and freedom?
+.Lag systemet slik at minst mulig feil forekommer
+..La brukeren ha kontroll, implementer "angre" på alle nivåer
+.Konsistens i grensesnittet, følg retningslinjer for plattformen du bruker
+I Jacob Nilsens liste, hva menes med Consistency and standards?
+.Systemet skal alltid vise brukeren hva som foregår i maskinen
+..Konsistens i grensesnittet, følg retningslinjer for plattformen du bruker
+I Jacob Nilsens liste, hva menes med Error prevention?
+..Lag systemet slik at minst mulig feil forekommer
+.Systemet skal alltid vise brukeren hva som foregår i maskinen
+I Jacob Nilsens liste, hva menes med Recognition rather than recall?
+.Konsistens i grensesnittet, følg retningslinjer for plattformen du bruker
+..Brukeren skal ikke behøve å huske informasjon mellom dialoger. Instruksjoner skal være synlige når de trengs
+.Lag systemet slik at minst mulig feil forekommer (fleksibilitet)
+I Jacob Nilsens liste, hva menes med Flexibility and efficiency of use?
+.Lag et godt hjelpesystem
+..Gi avanserte brukere snarveier ol.
+.Systemet skal alltid vise brukeren hva som foregår i maskinen
+I Jacob Nilsens liste, hva menes med Aesthetic and minimalist desgin?
+.Systemet skal alltid vise brukeren hva som foregår i maskinen
+..Fjern alt som ikke har en hensikt
+.Lag et godt hjelpesystem
+I Jacob Nilsens liste, hva menes med Help users recognize, diagnose, and recover from errors?
+.Konsistens i grensesnittet, følg retningslinjer for plattformen du bruker
+..Hjelp brukeren dersom det oppstår feil
+.Snakk brukerens språk. Begreper ord og fremstillingsmåte som brukeren forstår
+I Jacob Nilsens liste, hva menes med Help and documentation?
+.Systemet skal alltid vise brukeren hva som foregår i maskinen
+..Lag et godt hjelpesystem
+.Lag systemet slik at minst mulig feil forekommer
