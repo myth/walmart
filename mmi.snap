@@ -3,6 +3,14 @@ I området Brukskvalitet (Usability) hva er Anvendbarhet (Effectiveness)?
 ..Dekker systemet de relevante funksjoner, og får brukerne til å bruke dem?
 .Vurdering av om oppgavene lar seg utføre effektivt.
 .Den subjektive brukskvalitet. Krever tester og spørreundersøkelser for å fastslå brukernes opplevelse av systemet.
+I området Brukskvalitet (Usability) hva er Effektivitet (Effectivity)?
+.Dekker systemet de relevante funksjoner, og får brukerne til å bruke dem?
+..Vurdering av om oppgavene lar seg utføre effektivt.
+.Den subjektive brukskvalitet. Krever tester og spørreundersøkelser for å fastslå brukernes opplevelse av systemet.
+I området Brukskvalitet (Usability) hva er Tilfredsstillelse (Satisfaction)?
+.Dekker systemet de relevante funksjoner, og får brukerne til å bruke dem?
+.Vurdering av om oppgavene lar seg utføre effektivt.
+..Den subjektive brukskvalitet. Krever tester og spørreundersøkelser for å fastslå brukernes opplevelse av systemet.
 Man har flere måter å jobbe på når man skal i gang med å lage et brukergrensesnitt. Hva er Formativ evaluering?
 ..Evaluering med den hensik å gi tilbakemelding for å forbedre produktet. her er det fokus på hvilke feil brukere oppdager, og hvordan dette kan meldes tilbake til utviklerne.
 .Evaluering med hensikt å måle eller godkjenne brukskvalitene til et produkt. Fokus på målbare kriterier som oppgavegjennomføring, feilrate og subjektiv tilfredstillelse.
@@ -49,7 +57,6 @@ I Prototyper, hva menes med begrepet High-Fi prototype?
 ..Kompleks prototype. koster mer. Brukes senere i prosjektet. Ligner på det ferdige produktet.
 .Er gjerne en veritikal prototype, eller kombinasjon. Er en quick and dirty implementajson av interaktivitet vha. egnet verktøy. Trenger ikke leve eget liv. Brukes til å teste designidéer.
 .Tegnet prototype. Raskt å lage. Design av grenesnittet slik brukeren opplever det. Ikke riktig responstid, mangler lyder og animasjoner. Krever god forestillingsevne hos brukeren.
-
 I Prototyper, hva menes med begrepet Interaktiv prototype?
 .Vise totalsystemet uten særlig mye interaktivitet eller funksjonalitet
 .Gå i dybden på en detalj, dvs. implementere nok interaktivitet og funksjonalitet til å kunne teste dette.
@@ -66,12 +73,6 @@ I Prototyper, hva menes med begrepet Papirprototype?
 .Kompleks prototype. koster mer. Brukes senere i prosjektet. Ligner på det ferdige produktet.
 .Er gjerne en veritikal prototype, eller kombinasjon. Er en quick and dirty implementajson av interaktivitet vha. egnet verktøy. Trenger ikke leve eget liv. Brukes til å teste designidéer.
 .Tegnet prototype. Raskt å lage. Design av grenesnittet slik brukeren opplever det. Ikke riktig responstid, mangler lyder og animasjoner. Krever god forestillingsevne hos brukeren.
-I Gestaltprinsippene, hva betyr Similarity?
-Similiarity	Når objekter ligner på hverandre, ser man dem ofte som ett objekt.
-Continuation	Kontinuasjon forekommer når øyet følger et objekt som fører mot et annet objekt.
-Closure	Dersom et objekt er uferdig, der man har mellomrom mellom linjer i objektet, vil folk observere hele objektet ved å fylle inn den manglende informasjonen.
-Proximity	Når objekter er plasert nærme hverandre, blir de ofte sett på som en gruppe.
-Figure and Ground	Øyet skiller et objekt (figure) fra det som ligger rundt objektet (ground).
 I Gestaltprinsippene, hva betyr Similarity?
 ..Når objekter ligner på hverandre, ser man dem ofte som ett objekt.
 .Forekommer når øyet følger et objekt som fører mot et annet objekt.
