@@ -1,16 +1,13 @@
 MMI
-Don Norman's "The Design of Everyday Things": Hva ligger i begrepet "Constraints"?
-.Hva slags hensikt/signal sender et objekt?
-..Noen ganger bør vise begrensninger på en gjenstand
-.En handling skal resultere i en tilbakemelding eller konsekvens
-.Hvordan brukeren tolker produktet
-Don Norman's "The Design of Everyday Things": Hva ligger i begrepet "Feedback"?
-.Hva slags hensikt/signal sender et objekt?
-.Noen ganger bør vise begrensninger på en gjenstand
-..En handling skal resultere i en tilbakemelding eller konsekvens
-.Hvordan brukeren tolker produktet
-Don Norman's "The Design of Everyday Things": Hva ligger i begrepet "Mapping"?
-.Hva slags hensikt/signal sender et objekt?
-.Noen ganger bør vise begrensninger på en gjenstand
-.En handling skal resultere i en tilbakemelding eller konsekvens
-..Hvordan brukeren tolker produktet
+MVC - Er følgende en beskrivelse av Model, View eller Controller? "Representerer gjerne et objekt, og har dermed attributter kalt properties. Modellen må ha metoder for å lese og skrive attributtene, og kunne sende ut endringshendelser."
+.Controller
+..Model
+.View
+MVC - Er følgende en beskrivelse av Model, View eller Controller? "Leser og visualiserer data."
+..View
+.Model
+.Controller
+MVC - Er følgende en beskrivelse av Model, View eller Controller? "Tolker input og endrer data."
+.Model
+.View
+..Controller
