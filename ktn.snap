@@ -1,0 +1,117 @@
+Et tjenerprogram etterspør og mottar tjenester fra et klientprogram.
+..Galt
+.Riktig
+Pakkesvitsjing er alltid bedre en linjesvitsjing.
+..Galt
+.Riktig
+Meldingen i Applikasjonslaget og informasjonen i transportlagshodet utgjør tilsammen transportlag-segmentet.
+..Riktig
+.Galt
+En Tier-1 ISP er direkte tilkoblet til hver av de andre Tier-1 ISP’ene.
+..Riktig
+.Galt
+IP er en forbindelsesorientert protokoll.
+.Riktig
+..Galt
+Internett DNS bruker TCP.
+.Riktig
+..Galt
+FTP bruker TCP som underliggenede transportprotokoll.
+..Riktig
+.Galt
+HTTP bestemmer hvordan en nettleser tolker en nettside (Web-side).
+.Riktig
+..Galt
+Det kan genereres mange TCP forbindelser når en bruker etterspør en nettside.
+..Riktig
+.Galt
+Fildistribusjon bruker klient-tjener arkitektur. Opplastingsrate: tjener er 10Mbps og hver klient er 1 Mbps. Nedlastingsrate: hver klient er 10Mbps. Det er 100 klienter og filen er på 12.5 Mbytes. Minimums distribusjonstid er på rundt 100s.
+.Riktig
+..Galt
+I BitTorrent, sett at Alice forsyner Bob med ”chunks” over et 15-sekunds interval. Da skal Bob forsyne Alice med ”chunks” i det samme intervallet.
+.Riktig
+..Galt
+P2P kan ikke benyttes til ‘instant messaging’
+.Riktig
+..Galt
+En vert (host) kan ha mer enn ett DNS navn.
+..Riktig
+.Galt
+SMTP blir brukt til å sende post fra senders post-tjener til mottakers post-tjener, og kan også brukes til å sende post fra senders bruker-agent til senders post-tjener.
+..Riktig
+.Galt
+En transportlag-protokoll kan tilby pålitelig dataoverføring selv om det underliggende nettlaget er upålitelig.
+..Riktig
+.Galt
+Sett at Vert (Host) A sender to TCP segmenter etter hverandre til Vert B over en TCP forbindelse. Det første segmentet har sekvensnummer 100; det andre har sekvensnummer 200. Det betyr at det er 100 bytes i det første segmentet.
+..Riktig
+.Galt
+En TCP forbindelses gjennomstrømming, er typisk en funksjon av dens tur-retur tid.
+..Riktig
+.Galt
+Når TCP blir brukt, så kan ikke mottakers TCP-portnummer være forskjellig fra senders TCP-portnummer.
+.Riktig
+..Galt
+UDP er en forbindelsesløs transport-protokoll.
+..Riktig
+.Galt
+Sett at Vert A sender en stor fil til Vert B over en TCP forbindelse. Dersom sekvensnummeret til et segment i denne forbindelsen er n, så vil sekvensnummeret til det påfølgende segmentet nødvendigvis være n+1.
+.Riktig
+..Galt
+Sett at Vert A sender en stor fil til Vert B over en TCP forbindelse. Antall ubekreftede ”bytes” sendt av A kan ikke overskride størrelsen på B sitt mottaker-buffer.
+..Riktig
+.Galt
+Sett at en prosess i Vert C har en UDP “socket” med portnummer 5678. Dersom både Vert A og Vert B sender et UDP segment til Vert C med destinasjonsportnummer 5678, så vil ikke prosessen i Vert C vite at disse to segmentene stammer fra to forskjellige verter.
+.Riktig
+..Galt
+TCP bruker end-til-ende metningskontroll.
+..Riktig
+.Galt
+IP adressen til 192.32.216.9 skrevet på binær notasjon er: 11000000 00100000 11011000 00001001
+..Riktig
+.Galt
+Virtuell circuit er forbindelses-orientert.
+..Riktig
+.Galt
+Med IP, så kan rekkefølgen på motatte pakker være forskjellig fra rekkefølgen disse pakkene ble sendt.
+..Riktig
+.Galt
+Verter og rutere kan bruke ICMP for å kommunisere nettlagsinformasjon til hverandre.
+..Riktig
+.Galt
+Rutingsjobben er å bestemme gode veier fra sender til mottaker gjennom nettverket.
+..Riktig
+.Galt
+I en desentralisert rutingsalgoritme, utføres utregningen av ”least-cost path” på en iterativ og distribuert måte.
+..Riktig
+.Galt
+Link-state (LS) ruting algoritmen er en desentralisert rutingsalgoritme.
+.Riktig
+..Galt
+Med DHCP, kan en vert bli tildelt en IP adresse som er forskjellig hver gang verten er tilkoblet nettet.
+..Riktig
+.Galt
+Adresserommet til IPv6 er mye større enn adresserommet til IPv4.
+..Riktig
+.Galt
+Dersom alle lenkene i Internett kunne tilby pålitelig leveringstjenester, ville den pålitelige leveringstjenesten til TCP være overflødig og dermed ikke nødvendig.
+.Riktig
+..Galt
+Todimensjonal paritets-sjekk kan oppdage og rette en enkelt bit-feil.
+..Riktig
+.Galt
+CRC (Cyclic Redundancy Check) oppdager alle feil.
+.Riktig
+..Galt
+Svitsjet Ethernet bruker “multicast link”
+.Riktig
+..Galt
+Hvert adapter tilkoblet et LAN har en unik MAC adresse.
+..Riktig
+.Galt
+Med CSMA/CD, når en kollisjon blir oppdaget, så vil noden som sender avbryte sendingen og bruke en protokoll for å bestemme når den skal prøve å sende neste gang.
+..Riktig
+.Galt
+I en CDMA protokoll, så blir hver bit som sendes kodet ved at denne bit multipliseres med et signal (”the code”) som endres med en rate som er mye raskere enn den orginale sekvensen av data-bit.
+..Riktig
+.Galt
