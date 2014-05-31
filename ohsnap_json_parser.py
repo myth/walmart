@@ -12,6 +12,8 @@ for url in urls:
     qset['subject'] = data['name']
     qset['questions'] = []
     for q in data['questions']:
+        if 'image' in q:
+            continue
         question = {}
         question['description'] = q['question']
         question['answers'] = []
