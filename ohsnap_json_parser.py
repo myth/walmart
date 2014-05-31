@@ -22,5 +22,5 @@ for url in urls:
         qset['questions'].append(question)
 
     output = open(u'%s_%s.json' %(data['code'], data['exam']), 'w')
-    output.write(json.dumps(qset))
+    output.write(json.dumps(qset).strip())
     output.close()
