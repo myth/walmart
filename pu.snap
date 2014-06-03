@@ -1,0 +1,41 @@
+Programvareutvikling
+What best describes the term "Functional Requirements"?
+..Statements of services that the system should provide, how it reacts to certain inputs and behaves in certain situations.
+.Constraints on the services or functions, such as response time, constraints on the development process, and standards. Often very critical: Imagine that your word processor took ten seconds from each keystroke to displaying it on screen.
+What best describes the term "Non-functional Requirements"?
+.Statements of services that the system should provide, how it reacts to certain inputs and behaves in certain situations.
+..Constraints on the services or functions, such as response time, constraints on the development process, and standards. Often very critical: Imagine that your word processor took ten seconds from each keystroke to displaying it on screen.
+What best describes the term "User requirements"?
+..Statements in natural language and diagrams of what services the system should provide and its constraints.
+.Detailed descriptions of the system's functions, services, and operational constraints. This should be defined in the ...-requirements document.
+What best describes the term "System requirements"?
+.Statements in natural language and diagrams of what services the system should provide and its constraints.
+..Detailed descriptions of the system's functions, services, and operational constraints. This should be defined in the ...-requirements document.
+The waterfall model has the following stages: Requirements analysis and definition, System and software design, Implementation and unit testing, Integration and system testing, Operation and maintenance.
+..True
+.False
+The Scrum model has the following stages: Outline planning, Sprint cycles, Project Closure.
+..True
+.False
+What are the principles of agile methods?
+..Customer involvement
+.State and lock requirements before software design
+..Incremental delivery
+..Embrace change
+.Implementation and unit testing after software design
+..Maintain simplicity
+What terms fit into the subject of software engineering ethics?
+..Confidentiality
+.Maintainability
+..Competence
+.Code quality
+..Intellectual property rights
+..Computer misuse
+What terms fit into the general attributes of good software?
+..Maintainability
+..Dependability and security
+.Pair-programming
+..Efficiency
+..Acceptability
+.Planning
+.Distribution
