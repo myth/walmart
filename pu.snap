@@ -1,61 +1,76 @@
 Programvareutvikling
-Software specification, software testing, software validation and software evolution are the four fundamental activities of software engineering.
-.True
-..False
-For generic software product development, the specification is owned by the product developer.
+Dependability is one of the essential attributes of good software.
 ..True
 .False
-The user requirements are developed after system requirements have been established.
-.True
-..False
-One of the four principles underlying agile development is that plans are not important.
-.True
-..False
-Test-first development is one of the three important characteristics of extreme programming?
+Security is one of the essential attributes of good software.
 ..True
 .False
-Functional requirements have direct impact on the developers while not-functional requirements have direct impact on the user.
+The fundamental activities in software processes are: specification, development, and validation.
 .True
 ..False
-There are three main requirements validation techniques. Test-case generation is one of them.
+The software engineering code of ethics is a set of principles that prescribes, in a general way, standards of expected behaviour for professional software engineers.
 ..True
 .False
-All requirements should ideally be specified without any knowledge of the proposed solution.
-.True
-..False
-One of the benefits of reuse is compliance to standards.
+In Incremental development, increments serve as examples to explore requirements.
 ..True
 .False
-A component has both a Requires and a Provides interface.
+In agile development, contract negotiation is of foremost importance.
+.True
+..False
+In agile development, responding to change is more important than following a plan.
 ..True
 .False
-A service has only a Requires interface.
+The principal requirements engineering activities are: Feasibility study; Requirements elicitation and analysis; Requirements validation.
 .True
 ..False
-Dependability is defined as Reusability, Availability, Safety, Security.
-.True
-..False
-If a system has reliability "four nines", it means that it will be available 99% of the time, giving a predicted down time of 3.65 days per year.
-.True
-..False
-Inspections do not require execution of a system so may be used before implementation.
+Consider the following requirement specification fragment for a ticket-issuing system “Once a destination has been selected, users are requested to input their credit card. Its validity is checked and the user is then requested to input a personal identifier. When the credit transaction has been validated, the ticket is issued.” This is a functional requirement.
 ..True
 .False
-Testing is more important in Water Fall software development than in Agile software development.
-.True
-..False
-Development Testing may consist of three subphases: 1) Unit Testing 2) Component testing 3) System testing
+Consider the following requirement specification fragment for a ticket-issuing system “Between 0600 and 2300 in any one day, the recovery time after a system failure should not exceed 2 minutes”. This is an availability requirement.
 ..True
 .False
-It is not possible to automate unit testing so that tests are run and checked without manual intervention.
+Activity diagrams show object interactions arranged in time sequence.
 .True
 ..False
-Activity diagrams model both the activities involved in a process and the relationships to the environment.
-.True
-..False
-State diagrams model how the system react to internal and external events.
+A class diagram gives a view about the structural connections between classes in the system.
 ..True
 .False
-Sequence diagrams describe only the interaction between actors and the system.
-.True
+A textual use-case description describes: a) the actors involved; b) interactions; c) The data that is exchanged; d) The stimulus that triggers the use case; e) The response of the system; f) Comments.
+..True
 .False
+According to Krutchen's 4+1 model, the logical view shows the key dynamic interactions of the system.
+.True
+..False
+One of the aims of Configuration Management is to support system integration so that all developers can access the project code and documents in a controlled way.
+..True
+.False
+Testdata is defined as input data used to execute the system during a test.
+..True
+.False
+In open-source development, the source code of a software system is made publicly available.
+..True
+.False
+In open-source development only volunteers and not professional developers can participate in the further development of the system.
+.True
+..False
+Testing can detect the presence of errors as well as their absence.
+.True
+..False
+During acceptance testing, customers test a system to check that it is ready for deployment.
+..True
+.False
+New technologies which become available may impose that software systems must change to take advantage of them.
+..True
+.False
+In general, effort of maintenance to adapt the software to a different environment can be estimated to be the 18% of all maintenance effort.
+..True
+.False
+Program structure improvement is one possible re-engineering activity.
+..True
+.False
+Communication ability is one of the important factors to consider when selecting people for a software project.
+..True
+.False
+Project estimates must include either the effort required to complete each project activity or the time required to complete each activity.
+.True
+..False
