@@ -1,76 +1,76 @@
 Programvareutvikling
-Dependability is one of the essential attributes of good software.
+Maintainability is one of the essential attributes of good software.
 ..True
 .False
-Security is one of the essential attributes of good software.
-..True
-.False
-The fundamental activities in software processes are: specification, development, and validation.
+Reusability is one of the essential attributes of good software.
 .True
 ..False
-The software engineering code of ethics is a set of principles that prescribes, in a general way, standards of expected behaviour for professional software engineers.
-..True
-.False
-In Incremental development, increments serve as examples to explore requirements.
-..True
-.False
-In agile development, contract negotiation is of foremost importance.
+Customised products are designed to meet the generic needs of several customers.
 .True
 ..False
-In agile development, responding to change is more important than following a plan.
-..True
-.False
-The principal requirements engineering activities are: Feasibility study; Requirements elicitation and analysis; Requirements validation.
+Early delivery of critical functionality to the customer is one of the advantages of using the Water Fall Model.
 .True
 ..False
-Consider the following requirement specification fragment for a ticket-issuing system “Once a destination has been selected, users are requested to input their credit card. Its validity is checked and the user is then requested to input a personal identifier. When the credit transaction has been validated, the ticket is issued.” This is a functional requirement.
+Agile approaches are suitable for development projects where the customers commit to become involved in the development process.
 ..True
 .False
-Consider the following requirement specification fragment for a ticket-issuing system “Between 0600 and 2300 in any one day, the recovery time after a system failure should not exceed 2 minutes”. This is an availability requirement.
-..True
-.False
-Activity diagrams show object interactions arranged in time sequence.
+Agile approaches to development are not suited for small and medium-sized software product development.
 .True
 ..False
-A class diagram gives a view about the structural connections between classes in the system.
+Consider the following requirement specification fragment for a ticket-issuing system “When the user presses the start button, a menu display of potential destinations is activated, along with a message to the user to select a destination”. This is a functional requirement.
 ..True
 .False
-A textual use-case description describes: a) the actors involved; b) interactions; c) The data that is exchanged; d) The stimulus that triggers the use case; e) The response of the system; f) Comments.
+Consider the following requirement specification fragment for a ticket-issuing system “Between 0600 and 2300 in any one day, the total system down time should not exceed 5 minutes. “This is an availability requirement.
 ..True
 .False
-According to Krutchen's 4+1 model, the logical view shows the key dynamic interactions of the system.
+Activity diagrams show the activities involved in the process and their interaction.
 .True
 ..False
-One of the aims of Configuration Management is to support system integration so that all developers can access the project code and documents in a controlled way.
+Use case diagrams show the interaction between the system and the external entities.
 ..True
 .False
-Testdata is defined as input data used to execute the system during a test.
-..True
-.False
-In open-source development, the source code of a software system is made publicly available.
-..True
-.False
-In open-source development only volunteers and not professional developers can participate in the further development of the system.
+According to the Model View Controller architecture, all shared data is held in a central database that can be accessed by all sub-systems.
 .True
 ..False
-Testing can detect the presence of errors as well as their absence.
-.True
-..False
-During acceptance testing, customers test a system to check that it is ready for deployment.
+One of the aims of Configuration Management is to support system integration so that all developers can find out what components have been changed.
 ..True
 .False
+During release testing, the system is not tested to check that it meets its usability requirements.
+.True
+..False
+In open-source development, any contributor to an open source development may fix bugs and suggest new features to a system.
+..True
+.False
+Regression testing detects the absence of errors.
+.True
+..False
+During user testing, the system is tested in the company’s environment.
+.True
+..False
+If the external legal environment for the system changes, new requirements can be generated.
+..True
+.False
+The number and complexity of system interfaces is one of the process metrics that can be used to assess maintainability?
+..True
+.False
+In general, effort of maintenance to add to or modify the system's functionality is estimated to be the lowest of all maintenance effort.
+.True
+..False
 New technologies which become available may impose that software systems must change to take advantage of them.
 ..True
 .False
-In general, effort of maintenance to adapt the software to a different environment can be estimated to be the 18% of all maintenance effort.
+Plan driven processes are used in system engineering because different parts of the system are developed by different groups at the same time and plans are needed to coordinate their activities.
 ..True
 .False
-Program structure improvement is one possible re-engineering activity.
+Technology change is one risk for generic software projects.
 ..True
 .False
-Communication ability is one of the important factors to consider when selecting people for a software project.
+Group size is one key factor for effectiveness of group communication.
 ..True
 .False
-Project estimates must include either the effort required to complete each project activity or the time required to complete each activity.
-.True
-..False
+Project estimates should also include the total cost of each activity.
+..True
+.False
+Process reliability is one of the characteristics that one may want to improve in a process improvement effort.
+..True
+.False
