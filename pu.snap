@@ -1,41 +1,61 @@
 Programvareutvikling
-What best describes the term "Functional Requirements"?
-..Statements of services that the system should provide, how it reacts to certain inputs and behaves in certain situations.
-.Constraints on the services or functions, such as response time, constraints on the development process, and standards. Often very critical: Imagine that your word processor took ten seconds from each keystroke to displaying it on screen.
-What best describes the term "Non-functional Requirements"?
-.Statements of services that the system should provide, how it reacts to certain inputs and behaves in certain situations.
-..Constraints on the services or functions, such as response time, constraints on the development process, and standards. Often very critical: Imagine that your word processor took ten seconds from each keystroke to displaying it on screen.
-What best describes the term "User requirements"?
-..Statements in natural language and diagrams of what services the system should provide and its constraints.
-.Detailed descriptions of the system's functions, services, and operational constraints. This should be defined in the ...-requirements document.
-What best describes the term "System requirements"?
-.Statements in natural language and diagrams of what services the system should provide and its constraints.
-..Detailed descriptions of the system's functions, services, and operational constraints. This should be defined in the ...-requirements document.
-The waterfall model has the following stages: Requirements analysis and definition, System and software design, Implementation and unit testing, Integration and system testing, Operation and maintenance.
+Software specification, software testing, software validation and software evolution are the four fundamental activities of software engineering.
+.True
+..False
+For generic software product development, the specification is owned by the product developer.
 ..True
 .False
-The Scrum model has the following stages: Outline planning, Sprint cycles, Project Closure.
+The user requirements are developed after system requirements have been established.
+.True
+..False
+One of the four principles underlying agile development is that plans are not important.
+.True
+..False
+Test-first development is one of the three important characteristics of extreme programming?
 ..True
 .False
-What are the principles of agile methods?
-..Customer involvement
-.State and lock requirements before software design
-..Incremental delivery
-..Embrace change
-.Implementation and unit testing after software design
-..Maintain simplicity
-What terms fit into the subject of software engineering ethics?
-..Confidentiality
-.Maintainability
-..Competence
-.Code quality
-..Intellectual property rights
-..Computer misuse
-What terms fit into the general attributes of good software?
-..Maintainability
-..Dependability and security
-.Pair-programming
-..Efficiency
-..Acceptability
-.Planning
-.Distribution
+Functional requirements have direct impact on the developers while not-functional requirements have direct impact on the user.
+.True
+..False
+There are three main requirements validation techniques. Test-case generation is one of them.
+..True
+.False
+All requirements should ideally be specified without any knowledge of the proposed solution.
+.True
+..False
+One of the benefits of reuse is compliance to standards.
+..True
+.False
+A component has both a Requires and a Provides interface.
+..True
+.False
+A service has only a Requires interface.
+.True
+..False
+Dependability is defined as Reusability, Availability, Safety, Security.
+.True
+..False
+If a system has reliability "four nines", it means that it will be available 99% of the time, giving a predicted down time of 3.65 days per year.
+.True
+..False
+Inspections do not require execution of a system so may be used before implementation.
+..True
+.False
+Testing is more important in Water Fall software development than in Agile software development.
+.True
+..False
+Development Testing may consist of three subphases: 1) Unit Testing 2) Component testing 3) System testing
+..True
+.False
+It is not possible to automate unit testing so that tests are run and checked without manual intervention.
+.True
+..False
+Activity diagrams model both the activities involved in a process and the relationships to the environment.
+.True
+..False
+State diagrams model how the system react to internal and external events.
+..True
+.False
+Sequence diagrams describe only the interaction between actors and the system.
+.True
+.False
