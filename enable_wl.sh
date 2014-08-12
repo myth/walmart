@@ -5,4 +5,4 @@ modprobe -r brcmsmac
 modprobe -r wl
 
 modprobe wl
-lsmod |grep wl
+lsmod |grep 'brcmsmac\|b43\|wl'
