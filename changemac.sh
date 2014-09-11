@@ -3,8 +3,8 @@
 echo -e "Enter new MAC address: \c"
 read mac
 /etc/init.d/networking stop
-ifconfig wlan0 down
-ifconfig wlan0 hw ether $mac
-ifconfig wlan0 up
+ifconfig wlan1 down
+ifconfig wlan1 hw ether $mac
+ifconfig wlan1 up
 /etc/init.d/networking start
-ifconfig wlan0
+ifconfig wlan1
