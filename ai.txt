@@ -1,0 +1,96 @@
+INTRODUKSJON TIL KUNSTIG INTELLIGENS
+Hvilke av følgende scenario er Single Agent...
+.Sjakk
+..Kryssord
+.Ludo
+..Sudoku
+Hvilke av følgende scenario er Multi Agent...
+..Sjakk
+.Sudoku
+.Kryssord
+..Ludo
+En agent som har sensorer vil inneha en fullt observerbar verden.
+.True
+..False
+En delvis observerbar verden kan skyldes støy på sensorer, eller mangel på nok sensorer til å måle alle tilstander.
+..True
+.False
+Natural Language Processing is a capability required in the Turing test.
+..True
+.False
+Knowledge representation is a capability not required in the Turing test.
+.True
+..False
+Automated reasoning is a capability required in the Turing test.
+..True
+.False
+Machine learning is a capability required in the Turing test.
+..True
+.False
+A rational agent is an agent which acts to achieve the best expected outcome based on what it knows, its functions and the environment.
+..True
+.False
+PEAS is an acrynom for...
+..Performance
+.Probability
+.Evaluation
+..Environment
+.Accountability
+..Actuators
+.Self-awareness
+..Sensors
+What do we call the environment if an agent does not have any sensors?
+.Fully observable
+..Unobservable
+.Partially observable
+What describes an agents actions in a deterministic environment?
+.There is uncertainty about the outcome of an action.
+..Any action has a single guaranteed effect without uncertainty.
+.Any action has a single guaranteed effect, with the exception of possible effects from other agents.
+What describes an agents action in a strategic environment?
+.There is uncertainty about the outcome of an action.
+.Any action has a single guaranteed effect without uncertainty.
+..Any action has a single guaranteed effect, with the exception of possible effects from other agents.
+What descibes an agents action in a stochastic encironment?
+..There is uncertainty about the outcome of an action.
+.Any action has a single guaranteed effect without uncertainty.
+.Any action has a single guaranteed effect, with the exception of possible effects from other agents.
+Episodic experience means that that an agents decision could affect all future decisions.
+.True
+..False
+Sequential experience means that an agents decision could affect all future decisions.
+..True
+.False
+A static environment stays unchanged until the agent makes a change.
+..True
+.False
+A dynamic environment itself does not change with time, but the agents performance score does.
+.True
+..False
+A semi dynamic environment itself does not change with time, but the agents performance score does.
+..True
+.False
+A discrete-state environment has a finite number of distinct states.
+..True
+.False
+Chess has a discrete set of percepts and actions.
+..True
+.False
+A continuous state environment has has a discrete, finite amount of states.
+.True
+..False
+An agent in a fully observable, unknown environment can infer the outcome of all actions.
+.True
+..False
+An agent in a fully observable, known environment can infer the outcome of all actions.
+..True
+.False
+A simple reflex agent selects it's actions based in the current precept. Ignoring previous precepts.
+..True
+.False
+A model-based reflex agent selects it's actions based on one or more specified goals.
+.True
+..False
+A utility based agent tries to maximize it's expected "happiness", e.g a chain of actions reaching the goal yielding the highest performance measure.
+..True
+.False
