@@ -1,0 +1,37 @@
+Introduksjon til kunstig intelligens
+What is ∀x IsABunny(x) ⇒ IsCute(x) in English?
+.There exists a bunny that is cute
+.Some bunnies are cute
+..All bunnies are cute
+What is ∀x IsAStudent(x) ∧ IsTakingAI(x) ⇒ IsCool(x) in English?
+..Every student who is taking AI is cool
+.Every student is cool
+.There exists a student who is cool and who is taking AI
+What is ∃s ∀h IsAStudent(s) ∧ IsTaking(s,AI) ∧ HomeworkFor(h,AI) ∧ ¬Hates(s,h) in English?
+.There exists a student who hates the AI homework
+..There is at least one student who doesn’t hate any of the AI homework
+.Every student hates the AI homework
+What is 2+2=4 in First order logic?
+..+(2, 2) ⇔ 4
+.+(2, 2) ⇒ 4
+..2 + 2 ⇔ 4
+Convert to FOL: There are no mushrooms that are poisonous and purple
+.∃x Mushroom(x) ⇒ ¬(Poisonous(x) ∧ Purple(x))
+..∀x Mushroom(x) ⇒ ¬(Poisonous(x) ∧ Purple(x))
+..∀x Mushroom(x) ⇒ ¬Poisonous(x) ∧ ¬Purple(x)
+Convert to FOL: There is a bunny who is a cute
+..∃x IsABunny(x) ∧ IsCute(x)
+.∃x IsABunny(x) ⇒ IsCute(x)
+.∀x IsABunny(x) ⇒ IsCute(x)
+What is missing: ∀x Something(x) ??? SomethingElse(x)
+.∧
+..⇒
+.⇔
+Which FOL statement is correct for this statement: Peter has at least two children.
+..∃x,y ParentOf(Peter, x) ∧ ParentOf(Peter, y) ∧ ¬(x=y)
+.∃x,y ParentOf(Peter, x) ∧ ParentOf(Peter, y)
+.∀x,y ParentOf(Peter, x) ∧ ParentOf(Peter, y)
+Which FOL statement is correct for this statement: All grad students watch the same TV shows
+..∀x,y,s GradStudent(x) ∧ GradStudent(y) ∧ Watches(x,s) ⇒ Watches(y,s)
+.Technically, grad students should not be watching TV. You people have work to do.
+.∀x ∃y Gradstudent(x), TVshow(y) ⇒ Watch(x,y)
