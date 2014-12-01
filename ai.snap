@@ -1,10 +1,10 @@
-AI
+Introduksjon til kunstig intelligens
 An agent that senses only partial information about the state cannot be perfectly rational.
-..True
-.False
+.True
+..False
 Every agent is rational in an unobservable environment.
 .True
-.False
+..False
 Strikking av en sokk involves a fully observable, deterministic, sequential,static, continuous, single agent environment.
 ..True
 .False
