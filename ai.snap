@@ -62,8 +62,7 @@ Hva er VPN
 En router er
 ..en datamaskin som forbinder flere nettverk
 .et program som sender informasjonspakker mellom 2 datamaskiner
-.et program som setter sammen informasjonspakkene til meldinger før den leveres til
-mottaker
+.et program som setter sammen informasjonspakkene til meldinger før den leveres til mottaker
 .en datamaskin som er koblet på internett
 Gitt navnelisten «Alice, Byron, Carol, Duane, Elaine, Floyd, Gene, Henry, Iris». Hvilken søkealgoritme vil finne Carol først (gjøre færrest sammenligninger)?
 .Binærsøk
