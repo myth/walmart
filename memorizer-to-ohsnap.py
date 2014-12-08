@@ -22,15 +22,21 @@ def make_ohsnap_file(remote_file_uri):
         if len(question['description']) >= 500:
             continue
         question['answers'] = []
+
+        valid_answers = True
+
         for x in range(0, len(q['answers'])):
             if type(q['correct']) is list:
                 correct = x in q['correct']
             else:
                 correct = x == q['correct']
 
+            if len(q['answers'][x]) >= 500:
+                valid_answers = False
+
             question['answers'].append({ 'description': q['answers'][x], 'correct': correct })
 
-        if 'image' not in q:
+        if 'image' not in q and valid_answers:
             output['questions'].append(question)
 
     with open('%s.json' % output['subject'], 'w') as f:
