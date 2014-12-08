@@ -33,7 +33,7 @@ with open('%s.snap' % SUBJECT, 'w') as f:
         f.write('%s term %s\n' % (TERM_PREFIX, TERM_SUFFIX))
         shuffle(descriptions)
         for desc in descriptions:
-            if (term, desc) in definitions:
+            if (term, desc) in DEFINITIONS:
                 f.write('..%s\n' % desc)
             else:
                 f.write('.%s\n' % desc)
