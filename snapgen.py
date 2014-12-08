@@ -30,7 +30,7 @@ for term, desc in DEFINITIONS:
 with open('%s.snap' % SUBJECT, 'w') as f:
     f.write(SUBJECT + '\n')
     for term in terms:
-        f.write('%s term %s\n' % (TERM_PREFIX, TERM_SUFFIX))
+        f.write('%s %s %s\n' % (TERM_PREFIX, term, TERM_SUFFIX))
         shuffle(descriptions)
         for desc in descriptions:
             if (term, desc) in DEFINITIONS:
