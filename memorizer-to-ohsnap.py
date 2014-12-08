@@ -21,8 +21,15 @@ def make_ohsnap_file(remote_file_uri):
         question['description'] = q['question']
         question['answers'] = []
         for x in range(0, len(q['answers'])):
-            question['answers'].append({'description': q['answers'][x], 'correct': x == q['correct']})
-        output['questions'].append(question)
+            if type(q['correct']) is list:
+                correct = x in q['correct']
+            else:
+                correct = x == q['correct']
+
+            question['answers'].append({ 'description': q['answers'][x], 'correct': correct })
+
+        if 'image' not in q:
+            output['questions'].append(question)
 
     with open('%s.json' % output['subject'], 'w') as f:
         f.write(json.dumps(output))
