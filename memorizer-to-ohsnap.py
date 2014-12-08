@@ -19,6 +19,8 @@ def make_ohsnap_file(remote_file_uri):
     for q in data['questions']:
         question = {}
         question['description'] = q['question']
+        if len(question['description']) >= 500:
+            continue
         question['answers'] = []
         for x in range(0, len(q['answers'])):
             if type(q['correct']) is list:
