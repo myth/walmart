@@ -2,10 +2,10 @@
 
 import requests
 import time
+import random
 
 STATS = True
 INFINITE = True
-INTERVAL = 2
 VOTING_ENDPOINT = 'http://www.adressa.no/poll/vote.do'
 
 # These are the required fields from the voting form
@@ -27,4 +27,4 @@ while (INFINITE):
             print unicode(o['label']) + ': ' + unicode(o['percentage']) + ' (' + unicode(o['votes']) + ')'
         print "-------------------------------------------"
 
-    time.sleep(INTERVAL)
+    time.sleep(1.0 + (random.random() * 5))
