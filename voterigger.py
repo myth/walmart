@@ -20,6 +20,7 @@ while (INFINITE):
     response = requests.post(VOTING_ENDPOINT, params=payload)
 
     json = response.json()
+    json['options'].sort(key=lambda x: x['votes'], reverse=True)
 
     if (STATS):
         for o in json['options']:
