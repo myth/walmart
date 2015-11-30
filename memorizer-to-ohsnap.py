@@ -2,15 +2,16 @@
 
 import requests
 import json
-from sys import stdin
+from sys import stdin, argv
 
-def make_ohsnap_file(remote_file_uri):
-    if not remote_file_uri:
-        print('No remote URI specified!')
+def make_ohsnap_file(remote_file_uri=None, data=None):
+    if not remote_file_uri and not data:
+        print('No remote URI or dataspecified!')
         return
 
-    source = requests.get(remote_file_uri)
-    data = source.json()
+    if remote_file_uri:
+        source = requests.get(remote_file_uri)
+        data = source.json()
 
     output = {}
     output['subject'] = data['name'].upper()
@@ -42,4 +43,10 @@ def make_ohsnap_file(remote_file_uri):
     with open('%s.json' % output['subject'], 'w') as f:
         f.write(json.dumps(output))
 
-make_ohsnap_file(stdin.readline().strip())
+
+if __name__ == '__main__':
+    if len(argv) > 1:
+        with open(argv[1]) as f:
+            make_ohsnap_file(data=json.loads(f.read().strip()))
+    else:
+        make_ohsnap_file(remote_file_uri=stdin.readline().strip())
