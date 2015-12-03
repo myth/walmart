@@ -15,10 +15,10 @@ When mapping and reducing the reality in a model, we distinguish between...
 ..Structural, functional and behavioural similarity.
 .Probable, improbable and plausible concepts.
 .Business oriented, transitional and infrastructure oriented relevance.
-"A model us a generalized representation of a piece of reality, with only relevant real-world properties taken into account during modeling"
+Statement: "A model us a generalized representation of a piece of reality, with only relevant real-world properties taken into account during modeling"
 ..True
 .False
-"Modeling means essentially to describe a set of abstract or concrete phenomena in a structured and, eventually in a formal way. Describing, modeling and drawing is a key technique to support human understanding, reasoning and communication"
+Statement: "Modeling means essentially to describe a set of abstract or concrete phenomena in a structured and, eventually in a formal way. Describing, modeling and drawing is a key technique to support human understanding, reasoning and communication"
 ..True
 .False
 In the context of the derivation and analysis process during modeling "Defining the problem and the purpose of the model" means ...
@@ -41,7 +41,7 @@ In the context of the derivation and analysis process during modeling "Acceptabi
 ..A model should be tailored to the model users as well as the problem and purpose
 .When modeling an overall structure of an organization, the model should only record important objects, such as departments, roles, and locations, and how they interrelate
 .It is essential to define what is part of the model or problem, and what is not. When developing medium or long-term enterprise strategy, for example, detailed planning may be potentially be left out
-"A method describes the approach to Enterprise Modeling by formulating a set of underlying principles as well as detailed and systematic work procedures."
+Statement: "A method describes the approach to Enterprise Modeling by formulating a set of underlying principles as well as detailed and systematic work procedures."
 ..True
 .False
 In the context of Enterprise Modeling, what best illustrates Perspective ?
@@ -64,7 +64,7 @@ In the context of Enterprise Modeling, what best illustrates Ways of cooperation
 .How do the different problems and questions relate to each other?
 ..Who asks, and who replies?
 .What are the important components?
-"Enterprise Architecture is only about modeling the components that make up the application and infrastructure and how those components inter-relate"
+Statement: "Enterprise Architecture is only about modeling the components that make up the application and infrastructure and how those components inter-relate"
 .True
 ..False
 The common ways of representing an enterprise model are:
