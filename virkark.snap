@@ -1,109 +1,33 @@
 Virksomhetsarkitektur og innovasjon
-With respect to the general characteristics of a model, what best describes Mapping ?
-.Models are not inherently assigned to a specific original. They are utilized by a model-using subject within a particular time frame "and within the constraints of certain conceptual or actual operations."
-.Models contain only those attributes of the corresponding original which are relevant to the modeler and the intended model user.
-..Models are always mappings (representations of real or abstract originals, which may, in turn, be models themselves.
-With respect to the general characteristics of a model, what best describes Reduction ?
-.Models are always mappings (representations of real or abstract originals, which may, in turn, be models themselves.
-..Models contain only those attributes of the corresponding original which are relevant to the modeler and the intended model user.
-.Models are not inherently assigned to a specific original. They are utilized by a model-using subject within a particular time frame "and within the constraints of certain conceptual or actual operations."
-With respect to the general characteristics of a model, what best describes Pragmatism ?
-.Models are always mappings (representations of real or abstract originals, which may, in turn, be models themselves.
-..Models are not inherently assigned to a specific original. They are utilized by a model-using subject within a particular time frame "and within the constraints of certain conceptual or actual operations."
-.Models contain only those attributes of the corresponding original which are relevant to the modeler and the intended model user.
-When mapping and reducing the reality in a model, we distinguish between...
-..Structural, functional and behavioural similarity.
-.Probable, improbable and plausible concepts.
-.Business oriented, transitional and infrastructure oriented relevance.
-Statement: "A model us a generalized representation of a piece of reality, with only relevant real-world properties taken into account during modeling"
-..True
-.False
-Statement: "Modeling means essentially to describe a set of abstract or concrete phenomena in a structured and, eventually in a formal way. Describing, modeling and drawing is a key technique to support human understanding, reasoning and communication"
-..True
-.False
-In the context of the derivation and analysis process during modeling "Defining the problem and the purpose of the model" means ...
-..The task, and therefore the problem to be solved, must be clearly defined and should form the basis for defining the purpose of the model
-.It is essential to define what is part of the model or problem, and what is not. When developing medium or long-term enterprise strategy, for example, detailed planning may be potentially be left out
-.When modeling an overall structure of an organization, the model should only record important objects, such as departments, roles, and locations, and how they interrelate
-.A model should be tailored to the model users as well as the problem and purpose
-In the context of the derivation and analysis process during modeling "Delimiting the problem" means ...
-.When modeling an overall structure of an organization, the model should only record important objects, such as departments, roles, and locations, and how they interrelate
-.The task, and therefore the problem to be solved, must be clearly defined and should form the basis for defining the purpose of the model
-.A model should be tailored to the model users as well as the problem and purpose
-..It is essential to define what is part of the model or problem, and what is not. When developing medium or long-term enterprise strategy, for example, detailed planning may be potentially be left out
-In the context of the derivation and analysis process during modeling "Identifying important model objects" means ...
-.It is essential to define what is part of the model or problem, and what is not. When developing medium or long-term enterprise strategy, for example, detailed planning may be potentially be left out
-.The task, and therefore the problem to be solved, must be clearly defined and should form the basis for defining the purpose of the model
-..When modeling an overall structure of an organization, the model should only record important objects, such as departments, roles, and locations, and how they interrelate
-.A model should be tailored to the model users as well as the problem and purpose
-In the context of the derivation and analysis process during modeling "Acceptability and users" means ...
-.The task, and therefore the problem to be solved, must be clearly defined and should form the basis for defining the purpose of the model
-..A model should be tailored to the model users as well as the problem and purpose
-.When modeling an overall structure of an organization, the model should only record important objects, such as departments, roles, and locations, and how they interrelate
-.It is essential to define what is part of the model or problem, and what is not. When developing medium or long-term enterprise strategy, for example, detailed planning may be potentially be left out
-Statement: "A method describes the approach to Enterprise Modeling by formulating a set of underlying principles as well as detailed and systematic work procedures."
-..True
-.False
-In the context of Enterprise Modeling, what best illustrates Perspective ?
-.How do the different problems and questions relate to each other?
-.What questions have to be asked?
-.Who asks, and who replies?
-..What are the important components?
-In the context of Enterprise Modeling, what best illustrates Framework ?
-.What are the important components?
-.Who asks, and who replies?
-..How do the different problems and questions relate to each other?
-.What questions have to be asked?
-In the context of Enterprise Modeling, what best illustrates Procedure, Notation and Concepts ?
-..What questions have to be asked?
-.Who asks, and who replies?
-.What are the important components?
-.How do the different problems and questions relate to each other?
-In the context of Enterprise Modeling, what best illustrates Ways of cooperation ?
-.What questions have to be asked?
-.How do the different problems and questions relate to each other?
-..Who asks, and who replies?
-.What are the important components?
-Statement: "Enterprise Architecture is only about modeling the components that make up the application and infrastructure and how those components inter-relate"
-.True
-..False
-The common ways of representing an enterprise model are:
-.Abstract, concrete and predictive
-.From the stakeholder's view, from the implementer's view and the worker's view
-..Textual description, tabular representation, informal graphic representation and formal graphic representation
-Everyone who have an indirect or direct interest in modeling or the results, are regarded as stakeholders in a modeling process
-..True
-.False
-Internal stakeholders include...
-..Include employees, project team, the departments concerned, the managers, and executives
-.Include customers, partners, subcontractors, legislators and shareholders of the enterprise
-External stakeholders include...
-.Include employees, project team, the departments concerned, the managers, and executives
-..Include customers, partners, subcontractors, legislators and shareholders of the enterprise
-The 8 most important perspectives when evaluating models in Krogstie's view are:
-..Behavioral
-.Predictive
-..Functional
-..Structural
-.Conceptual
-..Goal- and rule oriented
-..Object-oriented
-..(Social) Communication
-..Actor/role oriented
-..Topological
-In the IDEF0 process model, in addition to the inputs, we have...
-.Stakeholders, influencers and consequences
-..Controls, Mechanisms and Outputs
-.Behaviours, Inflictions and Results
-.Outputs, Controllers and Maintenance
-IDEF0 is very effective in detailing a systems activities for functional modelling, and provides an overall very concise description of systems, by defining input, output, mechanism, and controls. Because of the hierarchy structure, it’s easily re- fineable by removing, adding or changing processes.
-..True
-.False
-IDEF0 can be so concise that only domain experts understands the model, it can be misinterpreted as containing a strict series of activities, and it has limited support for the behavioural perspective.
-..True
-.False
-The SeeMe modeling language consists of these main components:
-.Objects, Subjects, Actions and Consequences
-..Roles, activities and entities
-.Stakeholders, Systems, Documents and Operators
-.Unicorns, Beavers, Level 9000 Warlocks and Invisible snakes
+In the SEQUAL framework for evaluating models, what does the letter A represent?
+.Allegations (Statements without assurance)
+.Assurance of the models validity
+..Actors who develops or relate to the model
+In the SEQUAL framework for evaluating models, what does the letter L represent?
+..What can be expressed in the modeling language
+.What level of detail the model presents
+.The amount of leverage the model provides
+In the SEQUAL framework for evaluating models, what does the letter M represent?
+.The amount of marketable information is available
+..What is expressed in the model
+.Monetization opportunities
+In the SEQUAL framework for evaluating models, what does the letter D represent?
+.The quality of the deliverables in the model
+.The level of detail in the model
+..What can be expressed about the domain
+In the SEQUAL framework for evaluating models, what does the letter K represent?
+..The explicit knowledge of the participatory persons
+.The degree of Kalle Klovn in the model
+.Kellogs?
+In the SEQUAL framework for evaluating models, what does the letter I represent?
+.The degree of interconnection between artifacts
+.What can be interpolated in the model
+..What the audience interperets the model to portray
+In the SEQUAL framework for evaluating models, what does the letter T represent?
+..What relevant tools interperet the model to portray
+.What test personell interperet the model to portray
+.What technicians interperet the model to portray
+In the SEQUAL framework for evaluating models, what does the letter G represent?
+.The greatness of the model
+.What generalizations the model makes
+..The goals of creating the model

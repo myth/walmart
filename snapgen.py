@@ -4,7 +4,7 @@ from itertools import product
 
 # Change these variables to suit your needs
 SUBJECT = 'Virksomhetsarkitektur og innovasjon'
-TERM_PREFIX = 'In the context of Enterprise Modeling, what best illustrates'
+TERM_PREFIX = 'In the SEQUAL framework for evaluating models, what best describes the letter'
 TERM_SUFFIX = '?'
 DEFINITIONS = [
     ('Perspective', 'What are the important components?'),
