@@ -11,18 +11,18 @@ import time
 
 
 # Settings
-OFFSET = 1400                   # Start at queue number
-MAX_ACTIVE_THREADS = 10         # Max simultaniously active requests
-REQUEST_DELAY = 0.1             # Interval between each spawned thread
+OFFSET = int(26 * 26)           # Skip 2-letter combos
+MAX_ACTIVE_THREADS = 16         # Max simultaniously active requests
+REQUEST_DELAY = 0.15            # Interval between each spawned thread
 
 # Define letters, vocals and consonants
 LETTERS = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
            'v', 'w', 'x', 'y', 'z']
 VOCALS = ['a', 'e', 'i', 'o', 'u', 'y']
-CONSONANTS = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z']
+CONSONANTS = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z']
 
 # TLDs of interest
-TLDS = ['no', 'pub', 'city', 'zone', 'it', 'wtf', 'lol']
+TLDS = ['no']
 
 # API
 API = 'https://www.domeneshop.no/check?domainname=%s&checked=1&random=%d'
@@ -164,7 +164,7 @@ class ExecutorPool(object):
                         )
                         tid += 1
 
-        # All vocal-vocal-consonant combos
+        # All consonant-vocal-vocal combos
         for a in CONSONANTS:
             for b in VOCALS:
                 for c in VOCALS:
@@ -177,6 +177,21 @@ class ExecutorPool(object):
                             )
                         )
                         tid += 1
+
+        # All vocal-consonant-consonant combos
+        for a in VOCALS:
+            for b in CONSONANTS:
+                for c in CONSONANTS:
+                    for tld in TLDS:
+                        self.queue.append(
+                            DomainAvailabilityCheck(
+                                tid,
+                                '%s%s%s.%s' % (a, b, c, tld),
+                                self.lock
+                            )
+                        )
+                        tid += 1
+
 
     def start(self):
         """
